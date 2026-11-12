@@ -666,7 +666,7 @@ def main():
                    "model": {"type": "minecraft:model", "model": f"{NS}:item/sakura_katana_sheathed"}}],
         "fallback": {"type": "minecraft:model", "model": f"{NS}:item/sakura_katana"}}})
     write("resourcepack/pack.mcmeta", {"pack": {
-        "description": "Sakura Katana - 3D item model (1.21.11)",
+        "description": "Sakura Katana and Warrior Greatsword - 3D item models (1.21.11)",
         "min_format": PACK_FORMAT, "max_format": PACK_FORMAT}})
 
     texs = {"#0": ([base], 128), "#1": (emis, 128), "#2": (pet, 64)}

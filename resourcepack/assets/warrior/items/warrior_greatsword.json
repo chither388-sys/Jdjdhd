@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "warrior:item/warrior_greatsword"
+	}
+}
