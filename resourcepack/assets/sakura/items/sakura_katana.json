@@ -1,0 +1,20 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:custom_model_data",
+		"index": 0,
+		"cases": [
+			{
+				"when": "sheathed",
+				"model": {
+					"type": "minecraft:model",
+					"model": "sakura:item/sakura_katana_sheathed"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "sakura:item/sakura_katana"
+		}
+	}
+}
